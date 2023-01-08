@@ -32,7 +32,6 @@ export default function LoginForm() {
         navigate("/timeline");
       })
       .catch((err) => {
-        console.log(err)
         setDisabled(false);
         err.response.data.details
           ? alert(err.response.data.details[0])
@@ -81,7 +80,7 @@ export default function LoginForm() {
           value={true}
           disabled={disabled}
         />
-        <label htmlFor="conected">Mantenha-se conectado</label>
+        <label htmlFor="conected">Stay connected</label>
       </CheckBox>
     </Form>
   );
@@ -93,7 +92,7 @@ const Form = styled.form`
   align-items: center;
 `;
 const FormButton = styled.button`
-    justify-content: center;
+  justify-content: center;
 `;
 const CheckBox = styled.div`
   display: flex;
