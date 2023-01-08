@@ -32,7 +32,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     line-height: 1;
-    background-color: #9F9F9F;
+    background-color: #333333;
     font-family: 'Oswald', sans-serif;
 	  font-weight: 400;
     color: #FFFFFF;
