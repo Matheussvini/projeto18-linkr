@@ -34,9 +34,9 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1;
     background-color: #9F9F9F;
     font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-  color: #FFFFFF;
-
+	  font-weight: 400;
+    color: #FFFFFF;
+    
   }
   ol, ul {
     list-style: none;
