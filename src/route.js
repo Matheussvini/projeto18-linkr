@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Register from "./Pages/Register/sign-up.js"
+import Register from "./Pages/Register/SignUp.js"
 import Login from "./Pages/Login/login.js"
 import Home from "./Pages/Home/home.js"
 
